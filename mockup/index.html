@@ -29,13 +29,23 @@
         </ul>
       </div>
     </nav>
-    <div class="col-md-4 col-md-offset-4">
-      <div class="input-group">
-        <span class="input-group-addon" id="grp-label11">Group</span>
-        <input type="text" class="form-control" placeholder="group_name" aria-describedby="grp-label1">
-        <span class="input-group-addon" id="uri-input-label1">http://host:port/</span>
-        <input type="text" class="form-control" id="url-input" aria-describedby="uri-input-label1">
-      </div>
+    <div class="row">
+     <div class="col-xs-4 col-xs-offset-4">
+       <div class="input-group">
+         <span class="input-group-addon" id="grp-label11">Group</span>
+         <input type="text" class="form-control" placeholder="group_name" aria-describedby="grp-label1">
+         <span class="input-group-addon" id="uri-input-label1">http://host[:port]/[path/]</span>
+         <input type="text" class="form-control" id="url-input" aria-describedby="uri-input-label1">
+       </div>
+     </div>
+     <div class="col-xs-2">
+       <div class="btn-group  btn-group-sm" role="group" aria-label="...">
+         <button type="button" class="btn btn-default">Set</button>
+         <button type="button" class="btn btn-default" aria-label="Remove">
+           <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+         </button>
+       </div>
+     </div>
     </div>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="js/jquery.min.js"></script>
