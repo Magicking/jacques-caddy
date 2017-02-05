@@ -1,6 +1,6 @@
 version: '2'
 services:
-  caddy:
+  jacques-caddy:
     image: zzrot/alpine-caddy                 
     volumes:
       - ./Caddyfile:/etc/Caddyfile:ro
