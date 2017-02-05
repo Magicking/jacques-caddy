@@ -1,0 +1,7 @@
+version: '2'
+services:
+  caddy:
+    image: zzrot/alpine-caddy                 
+    volumes:
+      - ./Caddyfile:/etc/Caddyfile:ro
+      - ./mockup/:/var/www/html:ro
